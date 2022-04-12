@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz game</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="./script.js" defer></script>
+</head>
+<body>
+  <main class="main">
+    <div class="container">
+      <h2 class="title">Want to Play this Quiz game?</h2>
+      <div class="question-container hide" id="question-container">
+        <div class="question" id="question"></div>
+        <div class="answer hide" id="answer"></div>
+      </div>
+      <div class="option-container hide" id="option-container">
+        <button class="option"></button>
+        <button class="option"></button>
+        <button class="option"></button>
+        <button class="option"></button>
+      </div>
+      <div class="scoreboard-container hide"  id="scoreboard-container">
+        <h3 class="scoreboard">
+          <span>Your score: </span>
+          <span id="score"></span>
+        </h3>
+      </div>
+      <div class="controls">
+        <button class="start-btn btn" id="start-btn">Start</button>
+        <button class="next-btn btn hide" id="next-btn">Next</button>
+        <button class="start-btn btn hide" id="restart-btn">Re-start</button>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
